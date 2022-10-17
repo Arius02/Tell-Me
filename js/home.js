@@ -19,16 +19,3 @@ if(document.querySelector("[data-theme='dark']")){
 } else {
   logo.src = "img/logo-no-background.png"
 }}
-
-document.getElementById("weather").addEventListener("click", function(){
-            window.location.href = 'weather.html';
-})
-document.getElementById("sports").addEventListener("click", function(){
-            window.location.href = 'sports.html';
-})
-document.getElementById("home").addEventListener("click", function(){
-            window.location.href = 'home.html';
-})
-document.getElementById("contact").addEventListener("click", function(){
-            window.location.href = 'news.html';
-})

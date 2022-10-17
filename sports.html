@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/mobiscroll.javascript.min.css" rel="stylesheet" />
     <link rel="stylesheet" class="mode" href="css/style.css">
+    <link rel="stylesheet" href="css/sports.css">
   </head>
   <body >
     <header>
@@ -26,37 +27,47 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 fw-semibold w-50 d-flex justify-content-around">
               <li class="nav-item ">
-                <a class="nav-link main-nav rounded-pill py-1 px-3" aria-current="page" id="home" href="index.html">Home</a>
+                <a class="nav-link main-nav rounded-pill py-1 px-3" aria-current="page" href="Tell-Me/index.html">Home</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link main-nav rounded-pill py-1 px-3" id="weather" href="/weather.html">Weather</a>
+                <a class="nav-link main-nav rounded-pill py-1 px-3" href="Tell-Me/weather.html">Weather</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link main-nav  rounded-pill py-1 px-3" id="news" href="/news.html">News</a>
+                <a class="nav-link main-nav  rounded-pill py-1 px-3" href="Tell-Me/news.html">News</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link main-nav active rounded-pill py-1 px-3" id="sports" href="/sports.html">Sports</a>
+                <a class="nav-link main-nav active rounded-pill py-1 px-3" href="Tell-Me/sports.html">Sports</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link main-nav  rounded-pill py-1 px-3" id="contact" href="/contact.html">Contact</a>
+                <a class="nav-link main-nav rounded-pill py-1 px-3" href="Tell-Me/contact.html">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <section class="d-flex justify-content-center align-items-center vh-100">
-       <!-- <div class="container">
-          <div class="pure-slide">
-            <div class="slide-item position-relative" id="slide-item">
-                      
+    <section >
+      <div class="container">
+
+        <nav class="nav-control d-flex justify-content-center align-items-center">
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Matches</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Standings</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Stats</button>
+            <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>Disabled</button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <div class="container-fluid" id="table">
+             
             </div>
           </div>
-        <div class="row mt-5 gy-4 newsBisCards">
-            
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+          <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
         </div>
-      </div> -->
-        <h1>Under Working.....</h1>
+      </div>
     </section>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/mobiscroll.javascript.min.js"></script>

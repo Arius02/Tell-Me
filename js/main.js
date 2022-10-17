@@ -81,4 +81,3 @@ document.documentElement.setAttribute('data-theme', switchToTheme)
               logo.src = "img/logo-no-background.png"
             }
         }
-
