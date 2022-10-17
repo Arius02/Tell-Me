@@ -29,7 +29,7 @@ const options = {
 };
 
 async function getTable() {
-  let req= await fetch('https://api-football-beta.p.rapidapi.com/standings?season=2021&league=39', options)
+  let req= await fetch('https://api-football-beta.p.rapidapi.com/standings?season=2022&league=39', options)
   let res = await req.json()
   console.log(res.response[0])
   let myLeague = res.response[0].league
