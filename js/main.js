@@ -39,7 +39,7 @@ async function weather(){
         </div>
         <div class="col-lg-4 mt-4 p-0 weather-tm-card ">
             <div class="d-flex  justify-content-center p-3 date-tm align-items-center ">
-              <p class="m-0">Thursday</p>
+              <p class="m-0">Tommorw</p>
             </div>
             <div class="d-flex align-items-center flex-column justify-content-around mt-5">
                 <img src="${res.forecast.forecastday[0].day.condition.icon}" alt="">
@@ -50,7 +50,7 @@ async function weather(){
           </div>
         <div class="col-lg-4 mt-4 p-0 weather-card ">
             <div class="d-flex  justify-content-center p-3 date align-items-center ">
-              <p class="m-0">Thursday</p>
+              <p class="m-0">${res.forecast.forecastday[1].date}</p>
             </div>
             <div class="d-flex align-items-center flex-column justify-content-around mt-5">
                 <img src="${res.forecast.forecastday[1].day.condition.icon}" alt="">
